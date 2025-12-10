@@ -142,7 +142,7 @@ header .banner img {
     width: 125px;
     height: 125x;
     border-radius: 50%;
-    border: 5px solid var(--secondary-color);
+    border: 10px solid var(--secondary-color);
     object-fit: cover;
     box-shadow: 0 0 20px rgba(192, 38, 211, 0.5);
 }
