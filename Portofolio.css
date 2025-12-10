@@ -132,19 +132,25 @@ header {
     position: relative;
 }
 
+/* --- Banner di dalam Hero Content --- */
 header .banner {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 2rem; /* Beri jarak dari teks di atasnya */
+    margin-bottom: 1.5rem; /* Beri jarak dari tombol di bawahnya */
 }
+
 header .banner img {
-    width: 125px;
-    height: 125x;
+    width: 150px; /* Perkecil ukuran agar proporsional */
+    height: 150px;
     border-radius: 50%;
     border: 5px solid var(--secondary-color);
     object-fit: cover;
     box-shadow: 0 0 20px rgba(192, 38, 211, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+header .banner img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(192, 38, 211, 0.7);
 }
 
 nav {
