@@ -139,8 +139,8 @@ header .banner {
     transform: translateX(-50%);
 }
 header .banner img {
-    width: 50px;
-    height: 50x;
+    width: 100px;
+    height: 100x;
     border-radius: 50%;
     border: 5px solid var(--secondary-color);
     object-fit: cover;
